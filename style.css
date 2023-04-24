@@ -1,0 +1,59 @@
+.logo{
+    width: 20%;
+    display: grid;
+    place-items: center;
+    margin-right:30%;
+    margin-top: 20px;
+}
+
+ul{
+    list-style: circle;
+    text-align: left;
+    margin-left: -30px;
+}
+
+.container{
+    min-width: 300px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.button {
+  align-items: center;
+  appearance: none;
+  background-color: #32a600;
+  border-radius: 25px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 1px 3px -1px,rgba(0, 0, 0, .1) 0 4px 6px 0,rgba(0, 0, 0, .1) 0 1px 14px 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  height: 30px;
+  justify-content: center;
+  letter-spacing: .25px;
+  /* line-height: normal; */
+  max-width: 100%;
+  overflow: visible;
+  padding: 1px 15px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button:hover {
+  background: #F6F9FE;
+  color: #575757;
+}

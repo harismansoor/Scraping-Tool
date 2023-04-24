@@ -1,0 +1,19 @@
+
+{
+    "name" : "Scrape Me - scraping tool",
+    "description" : "Scraping emails from web pages",
+    "version" : "1.0",
+    "manifest_version": 3,
+    "action" : {
+        "default_popup": "index.html"
+    },
+    "permissions" : ["activeTab", "scripting"],
+    "icons":{
+        "16": "logoCloud.png",
+        "48": "logo_white.png",
+        "128": "logo.png"
+    },
+    "browser_action": {
+        "default_icon": "logo.png"
+    }
+}
